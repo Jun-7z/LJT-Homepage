@@ -4,7 +4,7 @@ title: "Junteng Liu"
 title_separator: "-"
 name: &name "Junteng Liu"
 description: &description "Junteng Liu's academic homepage"
-url: "https://Jun-7z.github.io"
+url: "https://jun-7z.github.io"
 baseurl: "/LJT-Homepage"
 repository: "Jun-7z/LJT-Homepage"
 
@@ -45,8 +45,7 @@ analytics:
   provider: false
 
 # Reading Files
-include:
-  - _pages
+include: []
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -55,6 +54,13 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - _drafts
+  - _pages
+  - _portfolio
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -62,16 +68,24 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
+  - files
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - tmp
   - vendor
 keep_files:
